@@ -33,7 +33,7 @@ class SearchView extends Component {
   );
 
   /**
-   * @description Callback whenever anything chages int he input field. Invokes the search.
+   * @description Callback whenever anything chages in the input field. Invokes the search.
    * @param e {SyntheticEvent}
    */
   handleTermUpdate = e => this.setState({term: e.target.value});

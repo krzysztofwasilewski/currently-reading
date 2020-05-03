@@ -19,7 +19,7 @@ class BooksApp extends React.Component {
   getAllBooks = () => getAll().then(allBooks => this.setState({allBooks}));
 
   /**
-   * @description Triggered whenever this app is assigned to dom (basically when this app is launched). Causes fetching the list of all my books form the server.
+   * @description Triggered whenever this app is assigned to DOM (basically when this app is launched). Causes fetching the list of all my books form the server.
    */
   componentDidMount() {
     this.getAllBooks();

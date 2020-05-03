@@ -6,7 +6,7 @@ Based on the provided starter template. No modifications have been done to the C
 
 * install all project dependencies with `npm install`
 * start the development server with `npm start`
-* build prod version with `npm start`
+* build prod version with `npm run build`
 
 ## What this app is doing
 
